@@ -3,8 +3,8 @@
 //Note: if there is nothing to sum, the sum is default to 0.
 
 function positiveSum(arr) {
-    var sum = 0;
-    for (var i = 0; i < arr.length; i++) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
         arr[i] > 0 ? sum += arr[i] : 0
     }
     console.log(sum);
